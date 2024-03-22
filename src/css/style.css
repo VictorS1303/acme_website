@@ -12,3 +12,36 @@ body
     display: flex;
     flex-direction: column;
 }
+
+:root
+{
+    --primary-text-color: #222;
+    --secondary-text-color: #fff;
+    --navbar-background-color: #37424a;
+    --footer-background-color: #d35400;
+}
+
+body
+{
+    font-family: system-ui;
+    display: flex;
+    flex-direction: column;
+}
+
+li
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+img, video
+{
+    display: block;
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+}
