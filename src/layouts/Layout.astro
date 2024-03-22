@@ -1,5 +1,6 @@
 ---
 import "../css/style.css";
+import Navigation from "../components/Navigation.astro";
 const { title } = Astro.props;
 ---
 
@@ -11,6 +12,8 @@ const { title } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body>
-		<main></main>
+		<main>
+			<Navigation />
+		</main>
 	</body>
 </html>
