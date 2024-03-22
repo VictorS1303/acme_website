@@ -12,3 +12,21 @@ body
     display: flex;
     flex-direction: column;
 }
+
+li
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+img, video
+{
+    display: block;
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+}
