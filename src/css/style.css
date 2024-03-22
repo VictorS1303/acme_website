@@ -1,0 +1,14 @@
+:root
+{
+    --primary-text-color: #222;
+    --secondary-text-color: #fff;
+    --navbar-background-color: #37424a;
+    --footer-background-color: #d35400;
+}
+
+body
+{
+    font-family: system-ui;
+    display: flex;
+    flex-direction: column;
+}
